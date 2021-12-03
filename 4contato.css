@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	background: linear-gradient(to bottom, #f9faf9, #022835);
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Castoro', serif;
+}
+
+/*Imagem do topo da pagina*/
+#banner{
+	width: 100%;
+}
+
+/*menu até "a:hover*/
+.menu{
+	background-color: #022835;
+	margin: -5px 0 0;
+	text-align: center;
+}
+.menu ul li{
+	display: inline;
+	font-family: 'Castoro', serif;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	padding: 20px 40px;
+	transition: .4s;
+}
+li a:hover{
+	background-color: #0a1418;
+}
+/*titulos da pagina*/
+#titulo-pag{
+	background-image: url(assets/capa\ -\ teste.png);
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+/*todos os titulos e textos*/
+h2{
+	font-family: 'Castoro', serif;
+	text-align: center;
+	font-size: 30px;
+}
+
+p{
+	font-family: 'Castoro', serif;
+	font-size: 16px;
+}
+/*form contato*/
+main{
+	background: #E2E7E9;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.imagem{
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+}
+
+form{
+	width: 60%;
+	padding: 20px 0px;
+}
+
+form label{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.encapsulado{
+	display: inline-block;
+	text-align: center;
+}
+.titulo-form{
+	padding: 5px 0px;
+}
+
+.inputpadrao, form textarea{
+    display: block;
+	background-color: #E2E7E9;
+    margin: 0px auto;
+	padding: 5px;
+    width: 90%;
+	font-weight: bold;
+	border-radius: 5px;
+	border-color: #022835;
+	
+}
+
+.enviar{
+	display: block;
+	padding: 8px 0;
+	margin: 10px auto;
+	width: 82%;
+	border: none;
+	border-radius: 8px;
+	transition: 0.5s;	
+	background: #B39637;
+	color: #f9faf9;
+}
+.enviar:hover{
+	cursor: pointer;	
+	background: #022835;
+	color: #f9faf9;
+}
+
+/*Rodape*/
+.rodape{
+	width: 100%;
+}
+.ul-rodape{ 
+	width: 100%;
+	list-style: none;
+	padding: 20px 0px;
+	background-color: #022835;
+	color: ivory;
+	display: inline-block;
+}
+.topicos{
+	width: 31%;
+	display: inline-block;
+}
+
+.titulo-rodape{
+	text-align: center;
+}
+.txt-rodape{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: 2em;
+}
+
+.whats{
+	text-decoration: underline;
+	color: #E2E7E9;
+}
+
+.txt-direito{
+	background-color: #022835;
+	color: ivory;
+	padding: 10px;
+}
+
+
+@media screen and (max-width: 480px){
+    .header, .principal, .rodape, .lista-menu, .banner{
+        width: 100%;
+    }
+	.menu ul li a{
+		padding: 18px 0px;
+		display: block;
+	}
+	.btn-menu{
+		
+		width: 100%;
+	}
+    h1{
+        text-align: center;
+    }
+	/*toda a parte do formulário esta abaixo*/
+	.imagem{
+		width: 40%;
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.encapsulado{
+		width: 90%;
+	}
+	.titulo-form{
+		padding: 5px;
+	}
+	.inputpadrao{
+		width: 90%;
+		display: block;
+		margin: 10px;
+		padding: 12px 0px;
+	}
+	.enviar{
+		width: 92%;
+		margin: 0px 8px;
+	}
+	/*rodapé*/
+	.topicos{
+		display: block;
+		width: 100%;
+	}
+	.titulo-rodape{
+		text-align: center;
+		padding: 10px 0px 0px 0px ;
+	}
+
+	.txt-rodape{
+		width: 92%;
+		text-align: center;
+		padding: 0px 10px;
+		margin: 0px 0px 10px 0px;
+		font-size: 12px;
+		letter-spacing: 0.5px;
+		line-height: 1.6em;
+	}
+}

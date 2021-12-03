@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	background: linear-gradient(to bottom, #f9faf9,#022835);
+	box-sizing: border-box;
+	text-align: center;
+	font-family: 'Castoro', serif;
+}
+
+/*Imagem do topo da pagina*/
+#banner{
+	width: 100%;
+}
+/*menu até "a:hover*/
+.menu{
+	background-color: #022835;
+	margin: -5px 0 0;
+	text-align: center;
+}
+.menu ul li{
+	display: inline;
+	font-family: 'Castoro', serif;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	padding: 20px 40px;
+	transition: .4s;
+}
+li a:hover{
+	background-color: #0a1418;
+}
+/*titulos da pagina*/
+.capa{
+	width: 100%;
+}
+#title-page{
+	background-image: url(assets/capa\ -\ teste.png);
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+	padding: 150px 0px;
+}
+
+/*########Section 1########*/
+.sec-ofc1{
+	background-image: url(assets/fundo1.jpg);
+	width: 100%;
+}
+.sec-ofc1{ /*Grid separado para duas partes, nesse caso estamos usando só a esquerda*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 3em 0px;
+	width: 100%;
+}
+.sec-ofc1{
+	width: 100%;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	float: left;
+}
+
+.title1{
+	font-size: 2em;
+	text-align: left;	
+}
+.title-text1{
+	width: 100%;
+	margin: 1em 3em 1em 0.5em;
+	font-size: 1em;	letter-spacing: 0.9px; line-height: 2em;
+}
+
+.text-intro1{
+	background: none;	
+	margin: 1em 2em 1em 0em;
+	font-size: 1.1; letter-spacing: 0.9px; line-height: 1.5em; text-align: justify;
+	
+}
+.clique-aqui1{
+	padding-top: 20px; 
+	text-align: left;
+}
+.link-texto{
+	text-decoration: 
+	none; color: black;
+}
+.link-texto:hover{
+	color:rgb(95, 63, 38);
+	transition: 1s;
+	size: 1em;
+}
+
+/*########Section 2########*/
+.sec-ofc2{
+	background-image: url(assets/fundo2.jpg);
+	width: 100%;
+}
+.sec-ofc2{ /*Grid separado para duas partes, nesse caso estamos usando só a esquerda*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 3em 0px;
+	width: 100%;
+}
+.sec-ofc2{
+	width: 100%;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	float: left;
+}
+
+.title2{
+	font-size: 2em;
+	text-align: left;	
+}
+.title-text2{
+	width: 100%;
+	margin: 1em 3em 1em 0.5em;
+	font-size: 1em;	letter-spacing: 0.9px; line-height: 2em;
+}
+
+.text-intro2{
+	background: none;	
+	margin: 1em 2em 1em 0em;
+	font-size: 1.1; letter-spacing: 0.9px; line-height: 1.5em; text-align: justify;
+	
+}
+.clique-aqui2{
+	padding-top: 20px; 
+	text-align: left;
+}
+.link-texto{
+	text-decoration: 
+	none; color: black;
+}
+.link-texto:hover{
+	color:rgb(95, 63, 38);
+	transition: 1s;
+	size: 1em;
+}
+
+/*Contato*/
+.ctt-div{
+	background-color: #022835;
+}
+.title-ctt{
+	font-size: 1.5em;
+	text-align: center;
+	color: #f9faf9;
+}
+.link-ctt{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	padding: 30px 0;
+	transition: 0.5s;
+	border-width: 5px;
+	border: #022835;
+	color: black;
+}
+.link-ctt:hover{
+	cursor: pointer;	
+	background: #B39637;
+	color: #f9faf9;
+}
+/*mapa*/
+.localizacao{
+	padding-top: 10px;
+}
+#espaco-mapa{
+	background: #E2E7E9;
+	margin: 0px;
+	padding: 30px 0px;
+}
+.title-mapa{
+	
+	font-size: 2em;
+	text-align: center;
+}
+.txt-mapa{
+	padding-top: 1em;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+}
+.mapa{
+	width: 65%;
+	height: 270px;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 2em;
+	text-align: left;
+}
+
+/*Rodape*/
+.rodape{
+	width: 100%;
+}
+.ul-rodape{ 
+	width: 100%;
+	list-style: none;
+	padding: 20px 0px;
+	background-color: #022835;
+	color: ivory;
+	display: inline-block;
+}
+.topicos{
+	width: 31%;
+	display: inline-block;
+}
+
+.titulo-rodape{
+	text-align: center;
+}
+.txt-rodape{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: 2em;
+}
+
+.logo-rodape{
+	width: 20%;
+	display: inline-block;
+}
+
+.whats{
+	text-decoration: underline;
+	color: #E2E7E9;
+}
+
+.txt-direito{
+	background-color: #022835;
+	color: ivory;
+	padding: 10px;
+}
+
+
+@media screen and (max-width: 480px){
+    .header, .principal, .tres-textos, .div.grande, .espaco-mapa, .mapa, .rodape, .lista-menu, .banner{
+        width: 100%;
+    }
+	
+	.menu ul li a{
+		padding: 18px 0px;
+		display: block;
+	}
+	.btn-menu{
+		display: block;
+		width: 100%;
+	}
+
+    h1{
+        text-align: center;
+    }
+
+	.sec-ofc1, .sec-ofc2{
+		width: 100%;
+		display: block;
+		padding: 10% 0;
+	}
+
+	.localizacao{
+		margin: -5px 0px;
+	}
+	/*rodapé*/
+	.topicos{
+		display: block;
+		width: 100%;
+	}
+	.titulo-rodape{
+		text-align: center;
+		padding: 10px 0px 0px 0px ;
+	}
+
+	.txt-rodape{
+		width: 92%;
+		text-align: center;
+		padding: 0px 10px;
+		margin: 0px 0px 10px 0px;
+		font-size: 12px;
+		letter-spacing: 0.3px;
+		line-height: 1.6em;
+	}
+
+}
