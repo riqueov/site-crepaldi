@@ -18,7 +18,7 @@
 		
 		<nav class="menu">	
 			<ul class="lista-menu">
-				<li><a class="btn-menu" href="1home.html">
+				<li><a class="btn-menu" href="index.html">
 						Home
 					</a>
 				</li>
@@ -44,22 +44,26 @@
 <!--Formulario para contato-->
 	<main>
 		<img class="imagem" src="assets/crepaldi-e-leao-10cm.jpg">
-		<form class="encapsulado">
+		<script type="text/javascript">var submitted=false;</script>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+		onload="if(submitted) {window.location='5agradecimentos.html';}"></iframe>
+		<form class="encapsulado" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeRnY9XWFpGmiCv9_yTwBG7ImMWqfz3Wq8ZDVKHqsXaszIFYA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
 			<label class="titulo-form" for="nomesobrenome">Nome e Sobrenome</label>
-			<input type="text" id="nomesobrenome" class="inputpadrao" required 
+			<input type="text" name="entry.2005620554" id="nomesobrenome" class="inputpadrao" required 
 			placeholder="Nome Completo">
 
 			<label class="titulo-form" for="email">Email</label>
-			<input type="email" id="email" class="inputpadrao" required 
+			<input type="email" name="entry.1045781291" id="email" class="inputpadrao" required 
 			placeholder="email@email.com">
 
 			<label class="titulo-form" for="telefone">Telefone</label>
-			<input type="tel" id="telefone" class="inputpadrao" required placeholder="(XX)XXXXX-XXXX">
+			<input type="text" name="entry.1166974658" id="telefone" class="inputpadrao" required placeholder="(XX)XXXXX-XXXX">
 			
 			<label class="titulo-form" for="mensagem">Mensagem</label>
-			<textarea cols="70" rows="10" id="mensagem" class="inputpadrao" required  placeholder="Mensagem"></textarea>
+			<textarea name="entry.839337160" cols="70" rows="10" id="mensagem" class="inputpadrao" required  placeholder="Mensagem"></textarea>
 		
-			<input type="submit" name="contato" value="Enviar" class="enviar">
+			<button type="submit" value="Enviar" class="enviar" target="_blank">Enviar</button>
 		</form>
 	</main>
 

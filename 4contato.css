@@ -9,6 +9,15 @@ body{
 	font-family: 'Castoro', serif;
 }
 
+/*"obrigado"-> css da pagina 5agradecimentos*/
+.obrigado{
+	background: #B39637;
+	color: #f9faf9;
+	padding: 9.8% 0;
+
+}
+
+
 /*Imagem do topo da pagina*/
 #banner{
 	width: 100%;
